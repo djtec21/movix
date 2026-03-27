@@ -17,6 +17,8 @@ MoviX est une application de bureau fluide et immersive conçue pour transformer
 - **Indicateur de Visionnage** : Marquez vos films comme "Vus" d'un simple clic pour organiser votre progression.
 - **Bandeau Visuel** : Un ruban "VU" discret et élégant s'affiche automatiquement sur les affiches des films concernés.
 
+![Détail d'un film](screenshot-detail.png)
+
 ### 🎨 Expérience Cinématographique
 - **Interface "Warm Cinema"** : Un design basé sur des dégradés profonds (Bleu Acier et Marron Terre) pour une ambiance premium.
 - **Navigation Sans Rechargement** : Transitions fluides en fondu entre la collection et les fiches détaillées.
