@@ -8,6 +8,8 @@
 
 MoviX est une application de bureau fluide et immersive conçue pour transformer vos dossiers de films locaux en une véritable bibliothèque numérique interactive.
 
+![Capture d'écran de MoviX](screenshot.png)
+
 ## ✨ Fonctionnalités Principales
 
 ### 🍿 Lecture & Suivi
