@@ -2,7 +2,7 @@
 
 MoviX est une interface de gestion de collection cinématographique conçue pour offrir une expérience fluide, moderne et immersive, inspirée des standards du streaming professionnel.
 
-![Capture d'écran de MoviX](Lien_vers_ton_image_anonymisee_1.jpg)
+![Capture d'écran de MoviX](https://raw.githubusercontent.com/djtec21/movix/refs/heads/main/screenshot.png)
 
 ## ✨ Caractéristiques
 - **Design "Cinema Dark"** : Une interface sombre aux teintes de gris chaud et bleu acier pour un confort visuel optimal.
