@@ -1,16 +1,33 @@
-# 🎬 MoviX - Personal Movie Library
+# 🎥 MoviX Desktop App
 
-MoviX est une interface de gestion de collection cinématographique conçue pour offrir une expérience fluide, moderne et immersive, inspirée des standards du streaming professionnel.
+![Version](https://img.shields.io/badge/version-1.0.0-orange)
+[![Electron](https://img.shields.io/badge/Framework-Electron-blue?logo=electron)](https://www.electronjs.org/)
+[![Alpine.js](https://img.shields.io/badge/Library-Alpine.js-8BC0D0?logo=alpine.js)](https://alpinejs.dev/)
+[![Bootstrap 5](https://img.shields.io/badge/UI-Bootstrap%205-7952b3?logo=bootstrap)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-![Capture d'écran de MoviX](https://raw.githubusercontent.com/djtec21/movix/refs/heads/main/screenshot.png)
+MoviX est une application de bureau fluide et immersive conçue pour transformer vos dossiers de films locaux en une véritable bibliothèque numérique interactive.
 
-## ✨ Caractéristiques
-- **Design "Cinema Dark"** : Une interface sombre aux teintes de gris chaud et bleu acier pour un confort visuel optimal.
-- **Transitions Fluides** : Système de navigation sans rechargement entre la bibliothèque et les fiches détails (Powered by Alpine.js).
-- **Fiches Immersives** : Arrière-plans dynamiques avec effet de flou (backdrop-blur) basés sur l'affiche du film.
-- **Gestion Intelligente** : Tri par genre, année de sortie ou date d'ajout.
+## ✨ Fonctionnalités Principales
 
-## 🛠️ Stack Technique
-- **Frontend** : HTML5, CSS3 (Bootstrap 5 + Custom CSS), Alpine.js.
-- **Backend** : Electron.
-- **Données** : Intégration API TMDB pour la récupération automatique des métadonnées.
+### 🍿 Lecture & Suivi
+- **Lecture Instantanée** : Lancez vos films directement depuis l'application dans votre lecteur vidéo habituel.
+- **Indicateur de Visionnage** : Marquez vos films comme "Vus" d'un simple clic pour organiser votre progression.
+- **Bandeau Visuel** : Un ruban "VU" discret et élégant s'affiche automatiquement sur les affiches des films concernés.
+
+### 🎨 Expérience Cinématographique
+- **Interface "Warm Cinema"** : Un design basé sur des dégradés profonds (Bleu Acier et Marron Terre) pour une ambiance premium.
+- **Navigation Sans Rechargement** : Transitions fluides en fondu (Fade-In/Fade-Out) entre la collection et les fiches détaillées.
+- **Fiches Détaillées Immersives** : Affichage des synopsis, acteurs, réalisateurs et notes avec un arrière-plan flouté dynamique.
+
+## 🛠️ Coulisses Techniques
+
+L'application utilise une architecture moderne pour garantir une réactivité maximale :
+
+- **Système de Lecture** : Utilise `ipcRenderer` pour communiquer avec le système d'exploitation et ouvrir les fichiers.
+- **États Dynamiques** : Gérés par **Alpine.js** pour des animations fluides sans la lourdeur d'un framework complet.
+- **Tri & Filtrage** : Moteur de recherche instantané et filtres par genres ou dates de sortie.
+
+## 📦 Installation
+
+Télécharger la dernière version stable dans les releases.
