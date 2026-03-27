@@ -19,14 +19,14 @@ MoviX est une application de bureau fluide et immersive conçue pour transformer
 
 ### 🎨 Expérience Cinématographique
 - **Interface "Warm Cinema"** : Un design basé sur des dégradés profonds (Bleu Acier et Marron Terre) pour une ambiance premium.
-- **Navigation Sans Rechargement** : Transitions fluides en fondu (Fade-In/Fade-Out) entre la collection et les fiches détaillées.
-- **Fiches Détaillées Immersives** : Affichage des synopsis, acteurs, réalisateurs et notes avec un arrière-plan flouté dynamique.
+- **Navigation Sans Rechargement** : Transitions fluides en fondu entre la collection et les fiches détaillées.
+- **Fiches Détaillées Immersives** : Affichage des synopsis, acteurs, réalisateurs et notes.
 
 ## 🛠️ Coulisses Techniques
 
 L'application utilise une architecture moderne pour garantir une réactivité maximale :
 
-- **Système de Lecture** : Utilise `ipcRenderer` pour communiquer avec le système d'exploitation et ouvrir les fichiers.
+- **Système de Lecture** : Ouvrre les fichiers en 1 clic.
 - **États Dynamiques** : Gérés par **Alpine.js** pour des animations fluides sans la lourdeur d'un framework complet.
 - **Tri & Filtrage** : Moteur de recherche instantané et filtres par genres ou dates de sortie.
 
